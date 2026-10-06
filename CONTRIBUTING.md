@@ -1,9 +1,8 @@
-# Contributing Guidelines
+# Contributing to Drawsiness-Detection
 
-Thank you for contributing to Drawsiness-detection!
+Thank you for contributing to the driver safety vision monitor.
 
-## Development Workflow
-1. Fork and clone the repository.
-2. Create a feature or fix branch from \$defaultBranch\.
-3. Adhere to established project standards and test your modifications locally.
-4. Submit a clear and well-documented pull request.
+## Standards
+- Keep frame processing latency under 25ms per frame.
+- Avoid external cloud API dependencies; all inference must run locally.
+- Test across varying webcam lighting conditions.
